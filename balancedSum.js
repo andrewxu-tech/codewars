@@ -17,8 +17,6 @@ function balancedNum(number) {
   splitNumber[1].split('').forEach(digit => {
     sums[1] += Number(digit);
   });
-  console.log(sums);
-  console.log(splitNumber);
   if (sums[0] === sums[1]) {
     return 'Balanced';
   }
